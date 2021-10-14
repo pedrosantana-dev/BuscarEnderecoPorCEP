@@ -1,7 +1,11 @@
+
 #include "dialog.h"
 #include "ui_dialog.h"
 
 #include <QMessageBox>
+#include <QtNetwork/QNetworkAccessManager>
+#include <QtNetwork/QNetworkReply>
+#include <QXmlStreamReader>
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),

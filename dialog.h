@@ -2,13 +2,13 @@
 #define DIALOG_H
 
 #include <QDialog>
-#include <QtNetwork/QNetworkAccessManager>
-#include <QtNetwork/QNetworkReply>
-#include <QXmlStreamReader>
 
 namespace Ui {
 class Dialog;
 }
+
+class QNetworkAccessManager;
+class QNetworkReply;
 
 class Dialog : public QDialog
 {
